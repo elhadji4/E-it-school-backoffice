@@ -1,0 +1,20 @@
+{
+  "name": "travail_rattrapage_node",
+  "version": "1.0.0",
+  "description": "MVP for E-IT-School back-office with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "mongodb"],
+  "author": "Votre Nom",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2"
+  }
+}
